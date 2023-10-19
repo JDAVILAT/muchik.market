@@ -11,11 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bus", "Bus", "{856C8AB0-724B-46B9-B825-A2C446C9868D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "muchik.market.infrastructure.bus", "muchik.market.infrastructure.bus\muchik.market.infrastructure.bus.csproj", "{BAE5064A-990F-4C8A-BB4F-95E87C913C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.infrastructure.bus", "muchik.market.infrastructure.bus\muchik.market.infrastructure.bus.csproj", "{BAE5064A-990F-4C8A-BB4F-95E87C913C39}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross-Cutting", "Cross-Cutting", "{EB9915D3-686B-49B7-9F6E-7C87B634C765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "muchik.market.infrastructure.crosscutting", "muchik.market.infrastructure.crosscutting\muchik.market.infrastructure.crosscutting.csproj", "{8725CFE7-A42E-4499-8FD7-2E485BFCAE33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "muchik.market.infrastructure.crosscutting", "muchik.market.infrastructure.crosscutting\muchik.market.infrastructure.crosscutting.csproj", "{8725CFE7-A42E-4499-8FD7-2E485BFCAE33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{C4B0C1A1-3802-4FBE-8014-048775735FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "muchik.market.infrastructure.ioc", "muchik.market.infrastructure.ioc\muchik.market.infrastructure.ioc.csproj", "{A1AC29F5-1549-44F5-8080-2F301E3538FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{8725CFE7-A42E-4499-8FD7-2E485BFCAE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8725CFE7-A42E-4499-8FD7-2E485BFCAE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8725CFE7-A42E-4499-8FD7-2E485BFCAE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AC29F5-1549-44F5-8080-2F301E3538FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AC29F5-1549-44F5-8080-2F301E3538FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AC29F5-1549-44F5-8080-2F301E3538FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AC29F5-1549-44F5-8080-2F301E3538FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +53,8 @@ Global
 		{BAE5064A-990F-4C8A-BB4F-95E87C913C39} = {856C8AB0-724B-46B9-B825-A2C446C9868D}
 		{EB9915D3-686B-49B7-9F6E-7C87B634C765} = {F944690F-5934-44E0-AD17-47F80B23927B}
 		{8725CFE7-A42E-4499-8FD7-2E485BFCAE33} = {EB9915D3-686B-49B7-9F6E-7C87B634C765}
+		{C4B0C1A1-3802-4FBE-8014-048775735FEE} = {F944690F-5934-44E0-AD17-47F80B23927B}
+		{A1AC29F5-1549-44F5-8080-2F301E3538FD} = {C4B0C1A1-3802-4FBE-8014-048775735FEE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40214548-DEA5-40B6-BABB-54B1C80D6B02}

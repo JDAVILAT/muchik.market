@@ -12,7 +12,7 @@ using muchik.market.domain.commands;
 
 namespace muchik.market.infrastructure.bus
 {
-    internal sealed class RabbitMqBus: IEventBus
+    public sealed class RabbitMqBus: IEventBus
     {
         private readonly IServiceScopeFactory _serviceScopeFactory;
         private readonly IMediator _mediator;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace muchik.market.infrastructure.bus.settings
 {
-    internal class RabbitMqSettings
+    public class RabbitMqSettings
     {
         public string HostName { get; set; } = null!;
         public string Username { get; set; } = null!;
