@@ -3,7 +3,7 @@ using muchik.market.domain.events;
 
 namespace muchik.market.domain.bus
 {
-    internal interface IEventBus
+    public interface IEventBus
     {
         Task SendCommand<T>(T command) where T : Command;
         void Publish<T>(T @event) where T : Event;

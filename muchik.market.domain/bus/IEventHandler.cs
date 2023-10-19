@@ -2,7 +2,7 @@
 
 namespace muchik.market.domain.bus
 {
-    internal interface IEventHandler<in TEvent> : IEventHandler
+    public interface IEventHandler<in TEvent> : IEventHandler
         where TEvent : Event
     {
         Task Handle(TEvent @event);

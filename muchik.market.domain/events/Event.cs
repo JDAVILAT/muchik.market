@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace muchik.market.domain.events
 {
-    internal class Event
+    public abstract class Event
     {
         public DateTime Timestamp { get; protected set; }
 
